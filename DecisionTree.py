@@ -5,7 +5,7 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("C:/Users/lenovo/Desktop/Languagess/INT234-Predictive Analysis/PredictiveProject/hypertension_data.csv")
+data = pd.read_csv("/hypertension_data.csv")
 print(data.info())
 np.random.seed(42)
 train_data, test_data = train_test_split(data, test_size=0.2, random_state=42)
