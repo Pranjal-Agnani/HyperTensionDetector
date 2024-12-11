@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
-data = pd.read_csv("C:/Users/lenovo/Desktop/Languagess/INT234-Predictive Analysis/PredictiveProject/hypertension_data.csv")
+data = pd.read_csv("/hypertension_data.csv")
 
 data['target'] = data['target'].astype('category')
 
